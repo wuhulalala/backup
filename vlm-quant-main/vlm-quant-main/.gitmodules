@@ -1,0 +1,6 @@
+[submodule "third_party/qutlass"]
+	path = third_party/qutlass
+	url = https://github.com/IST-DASLab/qutlass.git
+[submodule "third_party/fast-hadamard-transform"]
+	path = third_party/fast-hadamard-transform
+	url = https://github.com/Dao-AILab/fast-hadamard-transform.git

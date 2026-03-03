@@ -1,0 +1,1 @@
+ python ../main.py --model=/home/bingxing2/home/scx9kvs/zsh/Qwen2.5-VL-7B-Instruct --pruning_method=2ssp --sparsity_rate=0.5 --evaluate_perplexity

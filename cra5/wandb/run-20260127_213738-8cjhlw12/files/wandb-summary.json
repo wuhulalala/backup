@@ -1,0 +1,1 @@
+{"train/batch_mse":0.37645191699266434,"_step":749,"train/avg_mse":0.5627967438697815,"train/avg_loss":0.45953313021858533,"_timestamp":1.7695221070299754e+09,"train/avg_kl":0.04647863809391856,"train/batch_kl":0.048847004771232605,"_wandb":{"runtime":1105},"_runtime":1105.67423231,"train/batch_loss":0.3109309449791908,"train/total_loss":172.3249238319695}

@@ -1,0 +1,49 @@
+# ===== 嵌套 git 仓库（已有自己的 .git，不能直接包含）=====
+lmms-eval/
+flash_attention_from_scratch/
+clash-for-linux-install/
+yalm/
+cra5/CRA5/
+
+# ===== 大型模型权重 =====
+vlm-quant-main/vlm-quant-main/realquant_models/
+vlm-quant-main/vlm-quant-main/saved_models/
+
+# ===== vlm-quant-main 嵌套 git 仓库 =====
+vlm-quant-main/vlm-quant-main/third_party/fast-hadamard-transform/
+vlm-quant-main/vlm-quant-main/third_party/qutlass/
+vlm-quant-main/vlm-quant-main/third_party/transformers/
+
+# ===== 大型数据文件 =====
+data/
+*.nc
+*.bin
+*.npz
+
+# ===== Python 虚拟环境 =====
+cra5/.cra5/
+.venv/
+venv/
+env/
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ===== 日志文件 =====
+*.log
+
+# ===== NVIDIA 性能分析报告 =====
+*.nsys-rep
+
+# ===== 编辑器配置（可选，按需保留）=====
+# .vscode/
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db

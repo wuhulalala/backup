@@ -1,0 +1,9 @@
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer 1955d882-3ea5-4c2c-bc6d-1a3e931022a2" \
+-d '{
+    "model": "mco-4",
+    "messages": [
+        {"role": "system", "content": "你是一位中文诗人，请严格遵循五言绝句格式。"},
+        {"role": "user",   "content": "写一首关于春天的五言绝句"}
+    ]
+}'

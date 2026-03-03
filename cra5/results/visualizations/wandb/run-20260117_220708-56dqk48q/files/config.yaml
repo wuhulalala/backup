@@ -1,0 +1,132 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            vant8gjh9805peu7893b5oirznmnfn6g:
+                cpu_count: 64
+                cpu_count_logical: 128
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "953699463168"
+                        used: "867246145536"
+                email: liscopye@gmail.com
+                executable: /root/work/cra5/.cra5/bin/python
+                gpu: NVIDIA GeForce RTX 5090
+                gpu_count: 8
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-143a6cdf-b584-6255-0631-c6359c4f12f0
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-d284a08d-4be6-969d-f23c-985fdcec60c7
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-003d9b37-25a9-10f0-b73f-ea3606ee6fd1
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-fc5edfdd-d324-8347-db67-afdf04ed74be
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-dbed5ef1-d053-66ff-2260-48bef727b435
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-0aa6582e-e946-33dd-893e-f98230b94dc5
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-dc4d83fc-b325-7e4d-488c-8f5d54205ad1
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-7fd03fbc-59ad-54de-82e8-29e5fead77b1
+                host: e38a674a65e7
+                memory:
+                    total: "1081813155840"
+                os: Linux-5.15.0-153-generic-x86_64-with-glibc2.35
+                program: /root/work/cra5/CRA5/train_brats_finetune.py
+                python: CPython 3.10.12
+                root: /root/work/cra5/results/visualizations
+                startedAt: "2026-01-17T14:07:08.747268Z"
+                writerId: vant8gjh9805peu7893b5oirznmnfn6g
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 1
+                - 41
+                - 49
+                - 63
+                - 77
+            "2":
+                - 1
+                - 41
+                - 49
+                - 63
+                - 77
+            "3":
+                - 13
+                - 15
+                - 16
+            "4": 3.10.12
+            "5": 0.24.0
+            "12": 0.24.0
+            "13": linux-x86_64
+batch_size:
+    value: 1
+data_root:
+    value: /bigdata/datasets/aiocta/brats2023-part-1/
+dataset/split_ratios:
+    value:
+        test: 0.2
+        train: 0.6
+        val: 0.2
+dataset/test_patients:
+    value: 125
+dataset/total_patients:
+    value: 625
+dataset/train_patients:
+    value: 375
+dataset/val_patients:
+    value: 125
+epochs:
+    value: 50
+lmbda_bpp:
+    value: 1
+lmbda_kl:
+    value: 0.3
+lmbda_mse:
+    value: 0.7
+lr_aux:
+    value: 0.001
+lr_entropy:
+    value: 1e-06
+lr_recon:
+    value: 1e-06
+model/stage1_trainable_params:
+    value: 377185792
+model/total_params:
+    value: 394434688
+model/trainable_params:
+    value: 394434688
+model_version:
+    value: 620
+save_interval:
+    value: 5
+stage:
+    value: stage1

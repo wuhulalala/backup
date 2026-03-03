@@ -1,0 +1,8 @@
+Skipping g_a.pos_embed - will use freshly initialized pos_embed for BraTS dimensions
+Skipping h_a.pos_embed - will use freshly initialized pos_embed for BraTS dimensions
+Encoding time: 0.6730s
+Decoding time: 0.4907s
+MSE: 15129.50
+PSNR: 39.62 dB
+BPP: 0.498502
+Compression ratio: 64.19:1
