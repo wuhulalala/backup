@@ -1,6 +1,0 @@
-Encoding time: 0.2973s
-Decoding time: 0.1148s
-MSE: 22038.00
-PSNR: 37.91 dB
-BPP: 0.086736
-Compression ratio: 368.94:1 
