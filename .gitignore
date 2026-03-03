@@ -3,7 +3,6 @@ lmms-eval/
 flash_attention_from_scratch/
 clash-for-linux-install/
 yalm/
-cra5/CRA5/
 
 # ===== 大型模型权重 =====
 vlm-quant-main/vlm-quant-main/realquant_models/
@@ -15,9 +14,8 @@ vlm-quant-main/vlm-quant-main/third_party/qutlass/
 vlm-quant-main/vlm-quant-main/third_party/transformers/
 
 # ===== 大型数据文件 =====
-data/
-*.nc
-*.bin
+/data/
+cra5/data/ERA5/2024/2024-06-01T00:00:00_pressure.nc
 *.npz
 
 # ===== Python 虚拟环境 =====
@@ -43,6 +41,9 @@ build/
 
 # ===== 编辑器配置（可选，按需保留）=====
 # .vscode/
+
+# ===== Claude Code 配置 =====
+.claude/
 
 # ===== 系统文件 =====
 .DS_Store
